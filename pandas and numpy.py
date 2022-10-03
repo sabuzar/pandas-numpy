@@ -6,5 +6,9 @@ dict1 = {
     "city":['chiniot','faislabad','dubai','salara']
 }
 fw = pd.DataFrame(dict1)
-print(fw)
-fw.to_csv('friends.csv')
+a=fw.head(2)
+b=fw.tail(3)
+#fw.to_csv('friends.csv')
+#fw.to_csv('friends-index-false.csv',index=False)
+c=fw.describe()
+print(c)
