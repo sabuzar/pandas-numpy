@@ -7,3 +7,4 @@ dict1 = {
 }
 fw = pd.DataFrame(dict1)
 print(fw)
+fw.to_csv('friends.csv')
